@@ -1,0 +1,19 @@
+.saml-welcome-content{
+  display: flex;
+  flex-direction: row;
+  *:nth-child(2){
+    min-width: 30%;
+  }
+}
+.saml-input-form{
+  input{
+    width: auto;
+  }
+  .ibo-collapsible-section{
+    margin: 1rem auto;
+  }
+}
+.saml-uid-input{
+  width: auto;
+  display: inline-block;
+}

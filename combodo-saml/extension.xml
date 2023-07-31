@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-saml</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Guillaume]]></author>
+	<label><![CDATA[SSO SAML Authentication]]></label>
+	<description><![CDATA[SSO User authentication using SAML]]></description>
+	<version>1.1.2</version>
+	<modules type="array">
+		<module>
+			<id>combodo-saml</id>
+			<version>tags/1.1.2</version>
+		</module>
+	</modules>
+	<release_date>2022-10-25</release_date>
+	<version_description><![CDATA[
+  * N°5635 - Add compatibility with PHP 8.0 & 8.1
+  * N°5635 - Fix missing use statement]]></version_description>
+	<itop_version_min></itop_version_min>
+	<status></status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>

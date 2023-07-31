@@ -1,0 +1,7 @@
+{# @copyright   Copyright (C) 2010-2019 Combodo SARL #}
+{# @license     http://opensource.org/licenses/AGPL-3.0 #}
+
+<div class="sso-button" title="{{ aData.sTooltip }}" onclick="$('#login_mode').val('{{ aData.sLoginMode }}'); $('#login_form').submit(); return false;">
+    {% if aData.sImagePath != '' %}<img  class="sso-image" src="{{ aData.sImagePath }}" alt="SAML" />{%  endif %}
+    {{ aData.sLabel }}
+</div>
